@@ -1,5 +1,5 @@
 import subprocess
-import webbrowser
+import webbrowser// please install these module if you hat not
 import os
 def you():
     global a
@@ -25,7 +25,7 @@ def bot():
         you()
         bot()
     elif "name" in a:
-        print(b+'chagan')
+        print(b+'mr.AI')
         you()
         bot()
     elif "nice" in a:
@@ -39,7 +39,7 @@ def bot():
     elif "open chrome" in a:
         print('ok')
         global chrome
-        chrome=subprocess.Popen('C:\\Program Files\\Google\\Chrome\\Application\\ronit.exe')
+        chrome=subprocess.Popen('C:\\Program Files\\Google\\Chrome\\Application\\ronit.exe')//please enter your chrome path
         you()
         bot()
     elif "open music file" in a:
@@ -48,13 +48,13 @@ def bot():
         bot()      
     elif "open youtube" in a:
         print('ok')
-        webbrowser.open('https://www.youtube.com/')
+        webbrowser.open('youtube.com')
         you()
         bot()  
     elif "open pycharm" in a:
         print('ok')
         global p
-        p = subprocess.Popen('C:\\Program Files\\JetBrains\PyCharm Community Edition 2021.2\\bin\\pycharm.exe')
+        p = subprocess.Popen('C:\\Program Files\\JetBrains\PyCharm Community Edition 2021.2\\bin\\pycharm.exe')//please enter your pycharm path
         you()
         bot()  
     elif "close"in a:
@@ -90,3 +90,4 @@ def bot():
 
 
 bot()
+//add your changes for better experience :)
